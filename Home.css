@@ -1,0 +1,123 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAEDCD;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h3, h4 {
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+.admission-form {
+  margin-top: 20px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #007bff;
+}
+
+/* Select Dropdowns */
+select {
+  appearance: none;
+  background: url("https://cdn.jsdelivr.net/gh/stevenrskelton/flag-icon/master/src/flags/4x3/US.svg") no-repeat right 12px center;
+  background-size: 20px;
+}
+
+/* Textarea */
+textarea {
+  width: calc(100% - 24px);
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ced4da;
+  text-align: left;
+}
+
+/* Submit Button */
+input[type="submit"] {
+  background-color: #03c600;
+  color: white;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #05bf2d;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid #ced4da;
+  color: #888888;
+}
+/* Admin Button */
+.admin-login {
+  text-align: right; 
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.logo-container {
+  text-align: center; 
+  margin: 0px;
+}
+.logo-container img {
+  width: 200px; 
+  height: 100px;
+}
